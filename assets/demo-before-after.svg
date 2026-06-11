@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">产品经理简历优化 Before 与 After 示例</title>
+  <desc id="desc">展示原始职责描述经过证据追问后，重构为真实、具体、可验证的项目经历，并保留风险提示。</desc>
+  <rect width="1200" height="680" fill="#f6f8fa"/>
+  <text x="60" y="62" fill="#1f2328" font-family="Arial, sans-serif" font-size="30" font-weight="700">JD 驱动的简历优化：先追问证据，再重构表达</text>
+  <text x="60" y="98" fill="#59636e" font-family="Arial, sans-serif" font-size="17">示例仅使用用户确认的信息，不补写不存在的经历或数据。</text>
+
+  <rect x="60" y="140" width="320" height="270" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <rect x="60" y="140" width="320" height="54" rx="14" fill="#fff1f0"/>
+  <text x="84" y="175" fill="#cf222e" font-family="Arial, sans-serif" font-size="22" font-weight="700">Before：职责描述</text>
+  <text x="84" y="235" fill="#1f2328" font-family="Arial, sans-serif" font-size="19">负责订单系统需求收集</text>
+  <text x="84" y="270" fill="#1f2328" font-family="Arial, sans-serif" font-size="19">和产品迭代。</text>
+  <text x="84" y="330" fill="#59636e" font-family="Arial, sans-serif" font-size="16">问题：</text>
+  <text x="84" y="360" fill="#59636e" font-family="Arial, sans-serif" font-size="16">缺少业务背景、个人动作、</text>
+  <text x="84" y="388" fill="#59636e" font-family="Arial, sans-serif" font-size="16">验证结果与 JD 能力证据。</text>
+
+  <path d="M400 275 H456" stroke="#0969da" stroke-width="4"/>
+  <path d="M446 263 L460 275 L446 287" fill="none" stroke="#0969da" stroke-width="4"/>
+
+  <rect x="480" y="140" width="270" height="270" rx="14" fill="#ffffff" stroke="#54aeff" stroke-width="2"/>
+  <rect x="480" y="140" width="270" height="54" rx="14" fill="#ddf4ff"/>
+  <text x="504" y="175" fill="#0969da" font-family="Arial, sans-serif" font-size="22" font-weight="700">证据追问</text>
+  <text x="504" y="235" fill="#1f2328" font-family="Arial, sans-serif" font-size="17">• 访谈了哪些用户？</text>
+  <text x="504" y="273" fill="#1f2328" font-family="Arial, sans-serif" font-size="17">• 你负责哪些交付物？</text>
+  <text x="504" y="311" fill="#1f2328" font-family="Arial, sans-serif" font-size="17">• 如何协同研发与测试？</text>
+  <text x="504" y="349" fill="#1f2328" font-family="Arial, sans-serif" font-size="17">• 哪些变化可以验证？</text>
+  <text x="504" y="387" fill="#59636e" font-family="Arial, sans-serif" font-size="15">无法确认的信息不进入最终版。</text>
+
+  <path d="M770 275 H826" stroke="#1a7f37" stroke-width="4"/>
+  <path d="M816 263 L830 275 L816 287" fill="none" stroke="#1a7f37" stroke-width="4"/>
+
+  <rect x="850" y="140" width="290" height="270" rx="14" fill="#ffffff" stroke="#2da44e" stroke-width="2"/>
+  <rect x="850" y="140" width="290" height="54" rx="14" fill="#dafbe1"/>
+  <text x="874" y="175" fill="#1a7f37" font-family="Arial, sans-serif" font-size="22" font-weight="700">After：可验证表达</text>
+  <text x="874" y="228" fill="#1f2328" font-family="Arial, sans-serif" font-size="16">访谈 8 位客户，梳理订单创建</text>
+  <text x="874" y="258" fill="#1f2328" font-family="Arial, sans-serif" font-size="16">流程问题；独立完成 PRD、原型</text>
+  <text x="874" y="288" fill="#1f2328" font-family="Arial, sans-serif" font-size="16">及验收，并协同研发、测试上线，</text>
+  <text x="874" y="318" fill="#1f2328" font-family="Arial, sans-serif" font-size="16">将核心操作步骤由 9 步缩短至</text>
+  <text x="874" y="348" fill="#1f2328" font-family="Arial, sans-serif" font-size="16">5 步。</text>
+  <text x="874" y="390" fill="#59636e" font-family="Arial, sans-serif" font-size="15">匹配：用户研究、需求分析、协作交付</text>
+
+  <rect x="60" y="450" width="1080" height="160" rx="14" fill="#fff8c5" stroke="#d4a72c" stroke-width="2"/>
+  <text x="84" y="492" fill="#9a6700" font-family="Arial, sans-serif" font-size="21" font-weight="700">真实性与面试自洽检查</text>
+  <text x="84" y="532" fill="#1f2328" font-family="Arial, sans-serif" font-size="17">✓ “8 位客户”“9 步缩短至 5 步”必须来自用户确认，并能说明口径与过程。</text>
+  <text x="84" y="566" fill="#1f2328" font-family="Arial, sans-serif" font-size="17">✓ 不虚构转化率、收入等结果；SQL 仅为基础能力时，不包装为数据分析专长。</text>
+  <text x="84" y="600" fill="#1f2328" font-family="Arial, sans-serif" font-size="17">✓ 每条优化经历都应能回答：背景、个人贡献、方法、结果、复盘。</text>
+  <text x="60" y="652" fill="#59636e" font-family="Arial, sans-serif" font-size="15">resume-jd-optimizer-cn · 示例不承诺面试或录用结果</text>
+</svg>

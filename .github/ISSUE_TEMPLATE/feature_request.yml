@@ -1,0 +1,35 @@
+name: 功能建议
+description: 建议新的岗位、流程、模板或工程能力
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请描述真实用户问题，而不只是建议增加一个功能。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 要解决的用户问题
+      placeholder: 例如：制造业项目经理的 JD 常使用交付和验收术语，当前岗位参考覆盖不足。
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 请提供脱敏输入和期望行为。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: 真实性与风险边界
+      description: 如何避免编造、夸大、关键词堆砌或误导性承诺？
+    validations:
+      required: true

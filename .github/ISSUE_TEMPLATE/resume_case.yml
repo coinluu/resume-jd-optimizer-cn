@@ -1,0 +1,56 @@
+name: 匿名简历案例反馈
+description: 提交充分脱敏的输入、输出和评价，用于改进测试
+title: "[Case] "
+labels:
+  - case
+body:
+  - type: markdown
+    attributes:
+      value: |
+        仅提交匿名案例。不要包含姓名、联系方式、身份证、真实客户名称或未公开数据。
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: 提交确认
+      options:
+        - label: 案例已经充分脱敏，可作为公开测试或文档案例
+          required: true
+        - label: 案例不包含我无权公开的公司或客户信息
+          required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: 岗位类型
+      options:
+        - 产品 / AI 产品
+        - 运营 / 增长
+        - 数据
+        - 技术 / 算法 / 测试
+        - 设计
+        - 销售 / 市场 / 商务
+        - 应届 / 实习 / 管培
+        - 转行
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: 脱敏输入
+      description: 包括必要的 JD、简历片段和补充事实。
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Skill 输出或关键行为
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: evaluation
+    attributes:
+      label: 哪些地方有效，哪些地方需要改进？
+    validations:
+      required: true

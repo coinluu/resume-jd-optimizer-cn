@@ -1,0 +1,4 @@
+interface:
+  display_name: "国内简历 JD 优化器"
+  short_description: "基于目标岗位与真实经历，生成可信可自洽的中文定制简历"
+  default_prompt: "使用 $resume-jd-optimizer-cn 根据我的目标 JD 和真实经历诊断差距并优化中文简历。"

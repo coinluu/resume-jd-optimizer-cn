@@ -1,0 +1,58 @@
+name: Bug 报告
+description: 报告 Skill 输出、规则或文档中的可复现问题
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请只提交脱敏内容，不要上传真实联系方式、客户信息或商业机密。
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我已删除或替换所有个人身份信息和商业机密
+          required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 问题类型
+      options:
+        - JD 解析
+        - 简历解析
+        - 缺口诊断
+        - 素材追问
+        - 简历重写
+        - ATS / HR / 面试检查
+        - 真实性或夸大风险
+        - 安装或文档
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: 最小脱敏输入
+      description: 提供能够复现问题的最短 JD、简历片段或调用方式。
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: 风险说明
+      description: 问题是否导致编造、夸大、关键词堆砌、隐私泄露或错误匹配？
