@@ -172,7 +172,8 @@ Codex 常见安装示例：
 
 ```bash
 mkdir -p ~/.codex/skills
-git clone <仓库地址> ~/.codex/skills/resume-jd-optimizer-cn
+git clone https://github.com/coinluu/resume-jd-optimizer-cn.git \
+  ~/.codex/skills/resume-jd-optimizer-cn
 ```
 
 安装后新建会话并调用：

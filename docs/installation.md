@@ -43,7 +43,7 @@ resume-jd-optimizer-cn/
 ### 熟悉 Git
 
 ```bash
-git clone <仓库地址>
+git clone https://github.com/coinluu/resume-jd-optimizer-cn.git
 cd resume-jd-optimizer-cn
 ```
 
@@ -179,7 +179,8 @@ JD 要求有 RAG、Agent 和 AI 产品落地经验。
 
 ```bash
 mkdir -p ~/.codex/skills
-git clone <仓库地址> ~/.codex/skills/resume-jd-optimizer-cn
+git clone https://github.com/coinluu/resume-jd-optimizer-cn.git \
+  ~/.codex/skills/resume-jd-optimizer-cn
 ```
 
 或将下载解压后的完整目录复制到：
