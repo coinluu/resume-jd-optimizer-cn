@@ -323,6 +323,14 @@ docs/assets/
 
 提交前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 和 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)。公开 Issue 中不要上传完整真实简历。
 
+## 联系与反馈
+
+如需交流使用问题、反馈案例或讨论贡献，可以通过微信联系维护者：
+
+<img src="assets/wechat-contact.png" alt="维护者微信二维码" width="240">
+
+添加时建议备注 `resume-jd-optimizer-cn`。请勿通过微信发送未脱敏简历、身份证、客户信息、商业机密或其他敏感材料；问题反馈优先使用已脱敏的最小示例。
+
 ## Star
 
 如果你认可“先找真实证据，再优化表达”的方式，可以 Star 或 Fork 这个仓库：
